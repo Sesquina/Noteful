@@ -1,0 +1,36 @@
+.Sidebar {
+	flex-basis: 20%;
+	width: 100%;
+}
+
+.Sidebar__folder-item {
+	text-align: center;
+	border: 1px solid black;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.Sidebar__folder-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.Sidebar__folder-title {
+	padding: 0px;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.Sidebar__back-button {
+	height: 50px;
+	background-color: white;
+	border: 1px solid black;
+	cursor: pointer;
+	width: 100%;
+	margin: 16px 0px 0px 5px;
+}
+
+.active > li {
+	background-color: lightgray;
+}
+
